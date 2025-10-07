@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Asia Cansler
+# DATE: October 6, 2025
+# BRIEF DESCRIPTION: User is prompted whether they want a compliment or not, with custom text.
 
 
 
@@ -14,6 +14,19 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+def main():
+    compliment()
+
+def compliment():
+    choice = input('Would you like a compliment? ')
+
+    if choice == 'yes':
+        print('You have wonderful eyes.')
+    else:
+        print('No compliment for you!')
+    print('Thank you for playing.')
+
+main()
 
 
 
@@ -70,7 +83,7 @@ Thank you for playing.
 '''
 
 1. Did you struggle with this lab (YES/NO)?
-
+NO
 
 
 
